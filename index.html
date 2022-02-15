@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+           
+            <div class="count">
+                <a href="#">
+                    <img class="logo" src="./img/logo.svg" alt="site logo" width="70" height="60">
+               </a> 
+   
+               <button class="bookmak__button">
+                   Bookmark 
+               </button>
+
+            </div>
+
+            <nav>
+              <form>
+                  <input class="input" type="text" placeholder="Search film.....">
+
+                  <button class="button" type="submit">
+                    Search
+                  </button>
+              </form>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="films-section">
+            <div class="container">
+                <ul class="list">
+                    
+                </ul>
+            </div>
+        </section>
+    </main>
+
+
+    <div class="modal">
+        <div class="modal--inner">
+            
+            
+            <div class="modal__top">
+                <h3 class="modal__heading">About the film</h3>
+
+                <button class="modal__close-btn">+</button>
+            </div>
+
+            <div class="modal__info">
+                <h4 class="modal__film-title"></h4>
+                <img class="modal__film-img" src="" alt="" width="300" height="250">
+                <p class="modal__film-desc"></p>
+                <p class="modal__film-genres-title"></p>
+                <ul class="modal__film-genres-list"></ul>
+                <time class="modal__film-time"></time>
+            </div>
+           
+        </div>
+    </div>
+
+    <div class="bookmark_modal">
+       
+            <ul class="bookmark_list">
+            
+            </ul>
+       
+    </div>
+
+    <script src="./js/films.js"> </script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
